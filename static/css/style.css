@@ -1,0 +1,171 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+  background-color: #2c3e50;
+  color: #333;
+}
+
+.gradient-text {
+  background-image: repeating-linear-gradient(to right, #FFD700, #ff7b00, #FF6347);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin: 10px;
+  font-size: 35px;
+}
+
+#donate > div > div {
+  margin: 10px;
+}
+
+#donate > div > form > input:nth-child(1) {
+  width: 300px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#donate > div > form > div.trademc-buyform-select > select {
+  width: 304px;
+  height: 27px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#donate > div > form > div.trademc-buyform-userfields > input {
+  width: 300px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#donate > div > form > input:nth-child(4) {
+  width: 204px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#donate > div > form > button {
+  /* width: 120px; */
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #459af0;
+}
+
+#donate > div > form > button:hover {
+  transform: scale(1.1);
+}
+
+ul {
+	list-style-type: none;
+}
+
+.block {
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.block.main-info {
+	background-color: #f2f2f2;
+}
+
+.block.main-info p {
+	font-size: 18px;
+}
+
+.block.main-info li {
+	font-size: 18px;
+  padding: 3px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.block {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.info {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.info2 {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.block p {
+	margin-bottom: 0;
+}
+
+.block.donate {
+	background-color: #FF5722;
+	color: #fff;
+}
+
+.block.about {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+.block.about p {
+	font-size: 18px;
+}
+
+.discord-widget {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #7289da;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.discord-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.discord-icon img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.discord-widget a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.discord-server-name {
+  color: white;
+  font-size: 22px;
+  margin-left: auto;
+}
+
+
